@@ -50,8 +50,9 @@
 .boot_chat {
     background-color: #EDE6DC;
     width: 15em;
-    height: 100%;
+    height: 22em;
     margin-right: 2em;
+    margin-bottom: 2em;
 }
 
 .header_chat {
@@ -84,26 +85,19 @@
     margin: 0.2em;
 }
 
-.user_input {
-    padding: 0.5em;
-    display: flex;
-    align-items: center;
-    margin-top: 100%;
-}
-
 .boot_icon {
     color: #FFF;
 }
 
-.user_message {
+.message {
     background-color: #FFF;
     border-radius: 10px;
-    padding: 0.2em 0.5em;
+    padding: 0.5em;
     margin: 0.5em;
-    width: 50%;
+    width: 70%;
 }
 
-.user_message p {
+.message p {
     text-align: start;
     font-weight: 100;
     font-size: 0.75em;

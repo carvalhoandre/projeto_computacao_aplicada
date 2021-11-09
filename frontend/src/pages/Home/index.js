@@ -34,7 +34,7 @@ export default class Home extends Component {
                             <div>
                                 <i className="uil uil-android-alt delivery_icon margin" />
                                 <i className="uil uil-apple-alt delivery_icon margin" />
-                                <h3 className="delivery_option">Aplicativos</h3>
+                                <h3 className="delivery_option">Aplicativo</h3>
                             </div>
                             <div>
                                 <i className="uil uil-globe delivery_icon" />

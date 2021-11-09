@@ -2,13 +2,18 @@ import { Component } from 'react'
 import './styles.css'
 import ImageBoot from '../../assets/boot.png'
 import ProfilePhoto from '../../assets/profile.png'
-import Input from '../Input'
+
 
 const initialState = {
     chat: false,
-    messageInput: '',
-    messageUser: '',
-    messageBoot: ''
+    message: [
+
+        'Olá, tudo bem? Bem vindo ao Amarelinho!',
+        'Pedimos que antes de realizar o pedido, clique na opção CADASTRAR',
+        'Todos os pedidos acompanham arroz, feijão, fritas esalada',
+        'Atualmente estamos antendendo somente via Telegram (LINK) ',
+        'Em breve estaremos no WhatsApp e muito mais, aguardem'
+    ]
 }
 
 export default class Boot extends Component {
@@ -17,12 +22,18 @@ export default class Boot extends Component {
         ...initialState
     }
 
-    send = message => {
-        this.setState({ messageUser: message })
-        this.setState({ messageInput: '' })
-    }
-
     render() {
+
+        var messages = []
+
+        this.state.message.forEach((i) => {
+            messages.push(
+                <div className="message">
+                    <p>{i}</p>
+                </div>
+            )
+        })
+
         return (
             <>
                 {this.state.chat ? (
@@ -37,21 +48,7 @@ export default class Boot extends Component {
                                 <img src={ProfilePhoto} alt="ProfilePhoto" />
                                 <h1>Amarelinho</h1>
                             </div>
-                            <div className="user_message">
-                                <p>{this.state.messageUser}</p>
-                            </div>
-                            <div className="user_input">
-                                <Input
-                                    value={this.state.messageInput}
-                                    onChangeText={messageInput => this.setState({ messageInput })}
-                                />
-                                <button
-                                    className="boot_button"
-                                    onClick={() => { this.send(this.state.messageInput) }}
-                                >
-                                    <i className="uil uil-message boot_icon" />
-                                </button>
-                            </div>
+                            {messages}
                         </div>
                     </div>
                 ) :
