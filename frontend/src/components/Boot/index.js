@@ -7,11 +7,10 @@ import ProfilePhoto from '../../assets/profile.png'
 const initialState = {
     chat: false,
     message: [
-
         'Olá, tudo bem? Bem vindo ao Amarelinho!',
         'Pedimos que antes de realizar o pedido, clique na opção CADASTRAR',
         'Todos os pedidos acompanham arroz, feijão, fritas esalada',
-        'Atualmente estamos antendendo somente via Telegram (LINK) ',
+        'Atualmente estamos antendendo somente via ',
         'Em breve estaremos no WhatsApp e muito mais, aguardem'
     ]
 }
@@ -26,10 +25,13 @@ export default class Boot extends Component {
 
         var messages = []
 
-        this.state.message.forEach((i) => {
+        this.state.message.forEach((message, id) => {
             messages.push(
                 <div className="message">
-                    <p>{i}</p>
+                    <p>
+                        {message} 
+                        {id === 3 ? <a href="https://t.me/aliicy_BOT" target="_new" rel="external">Telegram</a> : null}
+                    </p>
                 </div>
             )
         })
