@@ -1,23 +1,17 @@
-<h2 align="center"> 
-  Projeto de Computacão Aplicada
-</h2>
-
- 
-
 <span align="center">
  
   
 <h2 align="center"> 
-  Bem-Vindo! 👋
+  Bem-Vindo ao nosso projeto de computação aplicada 👋
 </h2>
 
 <h2 align="center">
 	Descrição
 </h2>
-	<p>
+	<p align="center" style:"font-family:14pt">
 		Nosso projeto é resumido na criação de um CHATBOT, de um restaurante chamado Uni’s Amarelinho. Ele possui uma interação com o cliente pelo Telegram, podendo ser acessado a partir de um link, disponível em nosso site.
 	</p>
-	<strong>
+	<strong align="center">
 		Orientação: Todas as ferramentas utilizadas estão específicadas no arquivo 'requirements', instale-os para se ambientalizar e rodar o código sem nenhum erro.
 	</strong>
 
