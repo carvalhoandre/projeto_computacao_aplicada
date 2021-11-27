@@ -5,7 +5,7 @@
   Bem-Vindo ao nosso projeto de computação aplicada 👋
 </h2>
 
-<h2 align="center">
+<h3 align="center">
 	Descrição
 	<strong align="center">
 		Nosso projeto é resumido na criação de um CHATBOT, de um restaurante chamado Uni’s Amarelinho. Ele possui uma interação com o cliente pelo Telegram, podendo ser acessado a partir de um link, disponível em nosso site.
