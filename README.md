@@ -1,4 +1,7 @@
-# Projeto de Computacão Aplicada
+<h2 align="center"> 
+  Projeto de Computacão Aplicada
+</h2>
+
  
 
 <span align="center">
