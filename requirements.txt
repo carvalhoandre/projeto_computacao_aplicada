@@ -1,5 +1,6 @@
-python==3.9
-pytelegrambotapi==0.0.0
+python==3.10.0
+pip==21.1.2
+pytelegrambotapi==0.3.0
 node==16.13.0
 npm==6.0.0
 react==16.12.0
