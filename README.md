@@ -13,13 +13,14 @@
 
 <h2 align="center">
 	Descrição
+</h2>
 	<p>
 		Nosso projeto é resumido na criação de um CHATBOT, de um restaurante chamado Uni’s Amarelinho. Ele possui uma interação com o cliente pelo Telegram, podendo ser acessado a partir de um link, disponível em nosso site.
 	</p>
 	<strong>
 		Orientação: Todas as ferramentas utilizadas estão específicadas no arquivo 'requirements', instale-os para se ambientalizar e rodar o código sem nenhum erro.
 	</strong>
-</h2>
+
 
 <h3 align="auto">
  <strong> Aplicação desenvolvida com :bulb: </strong>
