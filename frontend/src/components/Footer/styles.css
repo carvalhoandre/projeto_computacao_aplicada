@@ -1,6 +1,11 @@
+footer {
+    margin-top: 10%;
+}
+
 footer div {
     display: flex;
-    padding: 0em 2em;
+    flex-direction: column;
+    padding: 1em 2em;
 }
 
 footer ul {
@@ -32,7 +37,7 @@ footer a, footer h1{
 footer a:hover {
     transform: scale(1.02);
     cursor: pointer;
-    color: var(--primary-color);
+    color: var(--first-color-alt);
 }
 
 footer hr {
@@ -53,6 +58,7 @@ footer hr {
 
 .footer-container {
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
 }
 

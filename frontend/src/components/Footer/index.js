@@ -1,10 +1,10 @@
 import './styles.css'
-import Logo from '../../assets/logo_p.png'
 
 export default function Footer() {
 
     return (
         <footer>
+            <hr />
             <div>
                 <ul>
                     <h1>Quem Somos</h1>
@@ -87,7 +87,6 @@ export default function Footer() {
             </div>
             <hr />
             <div className="footer_direct">
-                <img src={Logo} alt="Logo" />
                 <p>© Todos os direitos reservados</p>
             </div>
         </footer>

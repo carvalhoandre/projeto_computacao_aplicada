@@ -1,0 +1,125 @@
+.contact_container {
+    row-gap: 3em;
+}
+
+.contact_information {
+    display: flex;
+    margin-bottom: var(--mb-2);
+}
+
+.contact_icon {
+    font-size: 2em;
+    color: var(--first-color);
+    margin-right: var(--mb-0-75);
+}
+
+.contact_title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.contact_subtitle {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.contact_email {
+    text-decoration: none;
+    color: var(--text-color-light);
+}
+
+.contact_email:hover {
+    color: var(--first-color);
+    transform: scale(1.1);
+}
+
+.contact_content {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: var(--input-color);
+    border-radius: .5em;
+    padding: .75em 1em .25em;
+}
+
+.contact_label {
+    font-size: var(--smaller-font-size);
+    color: var(--title-color);
+}
+
+.contact_input {
+    width: 100%;
+    background-color: var(--input-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    border: none;
+    outline: none;
+    padding: .25em .5em .5em 0;
+}
+
+.contact_input:focus~label {
+    color: var(--first-color);
+}
+
+.button_send {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+    margin-top: 2em !important;
+    border-color: var(--first-color);
+    background-color: var(--first-color);
+    color: #FFF;
+    width: 12em;
+    height: 3em;
+}
+
+.button_send:hover {
+    cursor: pointer;
+}
+
+.button_send:disabled, button[disabled] {
+    background-color: var(--first-color-lighter);
+    border: none;
+}
+
+.button_send:disabled, button[disabled]:hover {
+    background-color: var(--first-color-lighter);
+    border: none;
+    cursor: not-allowed;
+    color: #FFF
+}
+
+.button_send:enabled:hover {
+    cursor: pointer;
+    background-position: left bottom;
+    color: #FFF;
+    border-color: rgb(255, 255, 255);
+}
+
+.button_send:focus {
+    outline: thin dotted;
+    outline: 0em auto -webkit-focus-ring-color;
+    outline-offset: 0em;
+}
+
+.form-error {
+    font-size: var(--smaller-font-size);
+    color: var(--first-color);
+    margin-left: 1em;
+}
+
+.loader {
+    text-align: center;
+    background-color: var(--body-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home_subtitle {
+    margin-top: 1.5em;
+}

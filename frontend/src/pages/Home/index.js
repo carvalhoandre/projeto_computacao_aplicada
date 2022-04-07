@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import NavBar from '../../components/NavBar'
 import './styles.css'
 import Image from '../../assets/emphasis.png'
+//components
+import NavBar from '../../components/NavBar'
 import Footer from '../../components/Footer'
-import Boot from '../../components/Boot'
+import Contact from '../../components/Contact'
 
 export default class Home extends Component {
 
@@ -12,23 +13,23 @@ export default class Home extends Component {
             <body>
                 <NavBar />
 
-                <Boot />
-                <main>
+                <main className="main">
                     <section id="home">
                         <div>
-                            <p className="emphasis_title">Onde há<br /> VONTATE,</p>
-                            <h1 className="emphasis_hover_title">há sempre <br />um AMARELINHO</h1>
+                            <p className="emphasis_title">Onde há<br /> VONTADE,<br />há sempre</p>
+                            <h1 className="emphasis_hover_title"><br />GOURMET<br />REQUEST</h1>
                         </div>
-                        <div>
+                        <div className="all_image">
                             <img src={Image} alt="Imagem_Ilustrativa" className="image_emphasis" />
                             <div className="circle" />
                         </div>
 
                     </section>
 
+
                     <section id="delivery">
-                        <h1 className="delivery_title">Delivery</h1>
-                        <h2 className="delivery_subtitle">Peça pelo nosso...</h2>
+                        <h2 className="section_title">Delivery</h2>
+                        <span className="section_subtitle">Peça pelo nosso...</span>
 
                         <div className="delivery_itens">
                             <div>
@@ -43,8 +44,10 @@ export default class Home extends Component {
                         </div>
                     </section>
 
+                    <Contact />
+
                     <Footer />
-    
+
                 </main>
             </body>
         )
