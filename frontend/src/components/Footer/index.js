@@ -83,7 +83,7 @@ export default function Footer() {
             </div>
             <div className="footer-container">
                 <i className="uil uil-instagram footer_icon" />
-                <i className="uil uil-youtube c" />
+                <i className="uil uil-youtube footer_icon" />
             </div>
             <hr />
             <div className="footer_direct">
