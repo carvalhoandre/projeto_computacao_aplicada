@@ -23,7 +23,7 @@ export default class NavBar extends Component {
                         <div className={`nav_menu ${this.state.nav === true ? 'show-menu' : 'close-menu'}`} id="nav-menu">
                             <ul className="nav_list grid">
                                 <li className="nav_item">
-                                    <a href="#" className="nav_link">
+                                    <a href="#home" className="nav_link">
                                         <i className={`uil uil-estate nav_icon`} />
                                         Home
                                     </a>

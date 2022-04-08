@@ -48,12 +48,13 @@ footer hr {
 .footer_icon {
     margin: 1em;
     font-size: 2em;
-    color: var(--primary-color-hover);
+    color: var(--title-color);
 }
 
 .footer_icon:hover {
     cursor: pointer;
     transform: scale(1.07);
+    color: var(--first-color);
 }
 
 .footer-container {
