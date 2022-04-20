@@ -77,7 +77,7 @@ export default function Contact() {
 
                 <section className="contact section" id="contactme">
                     <h2 className="section_title">Email Service</h2>
-                    <span className="section_subtitle">Você será atualizado de nossas novidades atravez de seu email</span>
+                    <span className="section_subtitle">Cadastre-se eseja atualizado de nossas novidades</span>
 
                     <div className="contact_container container grid">
                         <div>

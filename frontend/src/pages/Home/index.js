@@ -14,6 +14,9 @@ export default class Home extends Component {
                 <NavBar />
 
                 <main className="main">
+                    <div>
+                        <h1 className="emphasis_container_title">Em breve...</h1>
+                    </div>
                     <section id="home">
                         <div>
                             <p className="emphasis_title">Onde há<br /> VONTADE,<br />há sempre</p>

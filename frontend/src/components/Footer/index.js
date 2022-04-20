@@ -30,7 +30,7 @@ export default function Footer() {
                     </li>
                     <li>
                         <a href="/">
-                            A leve e saudável cozinha japonesa
+                            A leve e saudável cozinha
                         </a>
                     </li>
                 </ul>
